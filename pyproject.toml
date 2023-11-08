@@ -7,6 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.8"
+pyhanko = {extras = ["image-support", "opentype", "pkcs11", "xmp"], version = "^0.20.1"}
 
 
 [build-system]
